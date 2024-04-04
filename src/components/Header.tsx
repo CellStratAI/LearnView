@@ -8,20 +8,20 @@ const Menu = () => {
   const navigation = [
     {
       name: "Product",
-      href: "product",
+      href: "/",
     },
     {
       name: "Features",
-      href: "features",
+      href: "/",
     },
 
     {
       name: "Pricing",
-      href: "pricing",
+      href: "/",
     },
     {
       name: "About",
-      href: "about",
+      href: "/",
     },
   ];
 

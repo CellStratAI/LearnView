@@ -24,7 +24,6 @@ const App = () => {
       <Product />
       <Features />
       <About />
-      {/* <Analytics /> */}
     </div>
   );
 };

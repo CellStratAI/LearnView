@@ -9,7 +9,7 @@
   --color-tertiaty: #99a0a3;
 }
 
-a { 
+a {
   @apply text-red-700;
 }
 

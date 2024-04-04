@@ -18,7 +18,8 @@ const MainHero = () => {
           challenges with help of Generative AI and LLMs.
         </p>
         <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-          This project will have tools that facilitate learning and development for different kind of learners across learning domains.
+          This project will have tools that facilitate learning and development
+          for different kind of learners across learning domains.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
@@ -30,7 +31,7 @@ const MainHero = () => {
           </div>
           <div className="mt-3 sm:mt-0 sm:ml-3">
             <a
-              href="#"
+              href="https://github.com/CellStratAI/LearnView"
               className={`w-full flex items-center justify-center px-8 py-3 border-2 border-blue-600 text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}>
               Contribute
             </a>
