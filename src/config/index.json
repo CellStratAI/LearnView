@@ -1,6 +1,6 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "Domains",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
@@ -41,23 +41,42 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Domains of LearnView",
+    "subtitle": "Education and Learning is a vast domain and LearnView will cover many areas in this. Some ideas that the contributors might work on include",
     "items": [
       {
         "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+        "description": [
+          "LLM Tools for Maths, Science, Arts, Social Sciences, Engineering, Commerce, Arts, Medical learning etc for school, college and continuing education segments.",
+          "Tools for Exam Prep for SAT, GRE, GMAT, IIT JEE, IAS, NEET and other competitive exams.",
+          "Health Education and training",
+          "Coding and tech learning tools",
+          "Tech and Equipment training and operations manuals",
+          "Industrial Training and Upskilling",
+          "AI Tutors for various subjects",
+          "Teaching co-pilots and student co-pilots"
+        ],
         "img": "/assets/images/product1.jpg"
       },
       {
         "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "description": [
+          "Classroom apps like Lesson Transcriptions, Summarization, QnA and Assignments.",
+          "Guided and/or personalized learning pathways using Gen AI agents.",
+          "Content generation tools for Lessons Plans, Content Chapters, QnA, Essays, Audio / Video content, Tests, Research Papers etc.",
+          "Creating training manuals and instruction guides",
+          "Mentoring and Counseling tools",
+          "Corporate learning content",
+          "Executive Teaching tools and content",
+          "Tools related to Learning Management Systems"
+        ],
         "img": "/assets/images/product2.jpg"
       }
     ]
   },
   "features": {
     "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
+    "subtitle": "Join the LearnView Community: Contribute, Collaborate, and Innovate!",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "items": [
       {

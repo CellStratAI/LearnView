@@ -23,12 +23,19 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
+        <p className={`text-gray-300`}>{product.subtitle}</p>
         <div className={`flex flex-wrap`}>
           <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
-            <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
+            {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
               {firstItem?.title}
-            </h3>
-            <p className={`text-gray-300`}>{firstItem?.description}</p>
+            </h3> */}
+            <div className="text-white-300">
+              <ul className="list-disc">
+                {(firstItem?.description as string[]).map((item, index) => (
+                  <li key={index} className="mb-2">{item}</li>
+                ))}
+              </ul>
+            </div>
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
@@ -48,10 +55,16 @@ const Product = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
             <div className={`align-middle`}>
-              <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
+              {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
                 {secondItem?.title}
-              </h3>
-              <p className={`text-gray-300 mb-8`}>{secondItem?.description}</p>
+              </h3> */}
+              <div className="text-white-300">
+                <ul className="list-disc">
+                  {(firstItem?.description as string[]).map((item, index) => (
+                    <li key={index} className="mb-2">{item}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
