@@ -4,23 +4,35 @@ const Footer = () => {
   const { about } = config;
   const { socialMedia, sections } = about;
   return (
-    <footer className="px-4 py-8 border-t-2 text-gray-100">
-      <div className="container flex flex-wrap items-center justify-center mx-auto space-y-4 sm:justify-between sm:space-y-0">
+    <footer className="px-4 pb-4 border-t-2 text-gray-100">
+      <div className="w-full text-center md:hidden block">
+        <p className="mt-6 text-lg text-gray-50">
+          <a href="https://github.com/Cellstrat/LearnView" rel="nofollow">
+            &copy; CellStrat Inc. 2024
+          </a>
+        </p>
+      </div>
+
+      <div className="container flex flex-wrap items-center justify-between mx-auto space-y-4 sm:justify-between sm:space-y-0">
         <div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
           <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 rounded-full dark:bg-blue-600">
-           <img src="/assets/images/RoundLogoLV.png" className="rounded-full" alt="" />
+            <img
+              src="/assets/images/RoundLogoLV.png"
+              className="rounded-full"
+              alt=""
+            />
           </div>
           <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8"></ul>
         </div>
-        <div className="flex items-center mt-6">
+        <div className="hidden md:flex items-center">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-50">
             <a href="https://github.com/Cellstrat/LearnView" rel="nofollow">
               &copy; CellStrat Inc. 2024
             </a>
           </p>
         </div>
-        <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
-          <div className="flex items-center gap-x-8 mt-6 h-8">
+        <ul className="flex items-center pl-3 space-x-4 sm:space-x-8">
+          <div className="flex items-center gap-x-8 h-8">
             <a
               aria-label="github"
               href={socialMedia.github}
