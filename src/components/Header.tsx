@@ -19,36 +19,36 @@ const Menu = () => {
   return (
     <header className="p-4 ">
       <div className="container flex justify-between items-center h-10 mx-auto">
-        <a href="#">
+        <a href="#" className="flex items-center">
+          <img src="/assets/images/logo.png" className="w-16 mr-2" alt="Logo" /> {/* Add appropriate styles for the image */}
           <h5 className="text-2xl font-bold text-white">
             Learn
             <span className="text-blue-600">View</span>
           </h5>
         </a>
-        <ul className="items-stretch hidden space-x-3 lg:flex">
+        <ul className="text-white items-stretch hidden space-x-3 lg:flex">
           <li className="flex">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://github.com/CellStratAI/LearnView"
               className="flex items-center px-4 -mb-1">
-              ImagineView
+              Github
             </a>
           </li>
           <li className="flex">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://cellstrathub.com/"
               className="flex items-center px-4 -mb-1">
               Cellstrat
             </a>
           </li>
-
           <li className="flex">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://imagineview.com/"
               className="flex items-center px-4 -mb-1">
-              Github
+              ImagineView
             </a>
           </li>
         </ul>

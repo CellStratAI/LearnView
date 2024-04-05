@@ -6,7 +6,7 @@
     "img": "/assets/images/happyTeam.jpg",
     "primaryAction": {
       "text": "Get started",
-      "href": "#"
+      "href": "#product"
     }
   },
   "product": {

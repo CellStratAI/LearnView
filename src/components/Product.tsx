@@ -29,10 +29,10 @@ const Product = () => {
             {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
               {firstItem?.title}
             </h3> */}
-            <div className="text-white-300 m-auto">
+            <div className="text-white m-auto">
               <ul className="list-disc">
                 {(firstItem?.description as string[]).map((item, index) => (
-                  <li key={index} className="mb-2">{item}</li>
+                  <li key={index} className="mb-2 text-white-300">{item}</li>
                 ))}
               </ul>
             </div>
@@ -58,7 +58,7 @@ const Product = () => {
               {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
                 {secondItem?.title}
               </h3> */}
-              <div className="text-white-300 m-auto">
+              <div className="text-white m-auto">
                 <ul className="list-disc">
                   {(firstItem?.description as string[]).map((item, index) => (
                     <li key={index} className="mb-2">{item}</li>
