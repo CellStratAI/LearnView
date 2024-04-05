@@ -23,16 +23,16 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
-        <p className={`text-gray-300 m-10 text-justify md:m-0 `}>{product.subtitle}</p>
+        <p className={`text-gray-200 m-10 text-justify md:m-0 `}>{product.subtitle}</p>
         <div className={`flex flex-wrap justify-center align-middle mt-10 `}>
           <div className={`w-5/6 sm:w-1/2 p-6 `}>
             {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
               {firstItem?.title}
             </h3> */}
-            <div className="text-white-300 m-auto">
+            <div className="text-white m-auto">
               <ul className="list-disc">
                 {(firstItem?.description as string[]).map((item, index) => (
-                  <li key={index} className="mb-2">{item}</li>
+                  <li key={index} className="mb-2 text-white-300">{item}</li>
                 ))}
               </ul>
             </div>
@@ -58,7 +58,7 @@ const Product = () => {
               {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
                 {secondItem?.title}
               </h3> */}
-              <div className="text-white-300 m-auto">
+              <div className="text-white m-auto">
                 <ul className="list-disc">
                   {(firstItem?.description as string[]).map((item, index) => (
                     <li key={index} className="mb-2">{item}</li>
