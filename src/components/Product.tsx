@@ -23,7 +23,7 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
-        <p className={`text-gray-300 m-10 text-justify md:m-0 `}>{product.subtitle}</p>
+        <p className={`text-gray-200 m-10 text-justify md:m-0 `}>{product.subtitle}</p>
         <div className={`flex flex-wrap justify-center align-middle mt-10 `}>
           <div className={`w-5/6 sm:w-1/2 p-6 `}>
             {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>

@@ -20,7 +20,11 @@ const Menu = () => {
     <header className="p-4 ">
       <div className="container flex justify-between items-center h-10 mx-auto">
         <a href="#" className="flex items-center">
-          <img src="/assets/images/logo.png" className="w-16 mr-2" alt="Logo" /> {/* Add appropriate styles for the image */}
+          <img
+            src="/assets/images/logo_LV.png"
+            className="w-16 mr-2"
+            alt="Logo"
+          />
           <h5 className="text-2xl font-bold text-white">
             Learn
             <span className="text-blue-600">View</span>
@@ -31,7 +35,7 @@ const Menu = () => {
             <a
               rel="noopener noreferrer"
               href="https://github.com/CellStratAI/LearnView"
-              className="flex items-center px-4 -mb-1">
+              className="flex items-center px-4 -mb-1 text-lg font-semibold hover:text-blue-400">
               Github
             </a>
           </li>
@@ -39,7 +43,7 @@ const Menu = () => {
             <a
               rel="noopener noreferrer"
               href="https://cellstrathub.com/"
-              className="flex items-center px-4 -mb-1">
+              className="flex items-center px-4 -mb-1 text-lg font-semibold hover:text-blue-400">
               Cellstrat
             </a>
           </li>
@@ -47,7 +51,7 @@ const Menu = () => {
             <a
               rel="noopener noreferrer"
               href="https://imagineview.com/"
-              className="flex items-center px-4 -mb-1">
+              className="flex items-center px-4 -mb-1 text-lg font-semibold hover:text-blue-400">
               ImagineView
             </a>
           </li>
