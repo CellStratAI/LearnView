@@ -3,7 +3,7 @@ import React from "react";
 import config from "../config/index.json";
 
 const About = () => {
-  const { company, about } = config;
+  const { about } = config;
   const { socialMedia, sections } = about;
 
   return (

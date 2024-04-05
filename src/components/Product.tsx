@@ -23,13 +23,13 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
-        <p className={`text-gray-300`}>{product.subtitle}</p>
-        <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+        <p className={`text-gray-300 m-10 text-justify md:m-0 `}>{product.subtitle}</p>
+        <div className={`flex flex-wrap justify-center align-middle mt-10 `}>
+          <div className={`w-5/6 sm:w-1/2 p-6 `}>
             {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
               {firstItem?.title}
             </h3> */}
-            <div className="text-white-300">
+            <div className="text-white-300 m-auto">
               <ul className="list-disc">
                 {(firstItem?.description as string[]).map((item, index) => (
                   <li key={index} className="mb-2">{item}</li>
@@ -37,28 +37,28 @@ const Product = () => {
               </ul>
             </div>
           </div>
-          <div className={`w-full sm:w-1/2 p-6`}>
+          <div className={`w-full sm:w-1/2 p-6 `}>
             <img
               className="h-6/6"
               src={firstItem?.img}
-              alt={firstItem?.title}
+              // alt={firstItem?.title}
             />
           </div>
         </div>
-        <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
+        <div className={`flex flex-wrap justify-center align-middle mt-10 flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
               className="h-6/6"
               src={secondItem?.img}
-              alt={secondItem?.title}
+              // alt={secondItem?.title}
             />
           </div>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-5/6 sm:w-1/2 p-6 m-auto`}>
             <div className={`align-middle`}>
               {/* <h3 className={`text-3xl text-white font-bold leading-none mb-3`}>
                 {secondItem?.title}
               </h3> */}
-              <div className="text-white-300">
+              <div className="text-white-300 m-auto">
                 <ul className="list-disc">
                   {(firstItem?.description as string[]).map((item, index) => (
                     <li key={index} className="mb-2">{item}</li>

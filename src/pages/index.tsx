@@ -6,7 +6,6 @@ import Features from "../components/Features";
 import Header from "../components/Header";
 import MainHero from "../components/MainHero";
 import MainHeroImage from "../components/MainHeroImage";
-import Pricing from "../components/Pricing";
 import Product from "../components/Product";
 
 const App = () => {

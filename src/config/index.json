@@ -3,7 +3,7 @@
     "title": "LearnView",
     "subtitle": "Learn everything with Ai",
     "description": "LearnView is an Open Source project to solve for global Educational challenges with help of Generative AI and LLMs.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "img": "/assets/images/happyTeam.jpg",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
