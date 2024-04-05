@@ -1,0 +1,91 @@
+{
+  "mainHero": {
+    "title": "LearnView",
+    "subtitle": "Learn everything with Ai",
+    "description": "LearnView is an Open Source project to solve for global Educational challenges with help of Generative AI and LLMs.",
+    "img": "/assets/images/happyTeam.jpg",
+    "primaryAction": {
+      "text": "Get started",
+      "href": "#"
+    }
+  },
+  "product": {
+    "title": "Domains of LearnView",
+    "subtitle": "Education and Learning is a vast domain and LearnView will cover many areas in this. Some ideas that the contributors might work on include",
+    "items": [
+      {
+        "description": [
+          "LLM Tools for Maths, Science, Arts, Social Sciences, Engineering, Commerce, Arts, Medical learning etc for school, college and continuing education segments.",
+          "Tools for Exam Prep for SAT, GRE, GMAT, IIT JEE, IAS, NEET and other competitive exams.",
+          "Health Education and training",
+          "Coding and tech learning tools",
+          "Tech and Equipment training and operations manuals",
+          "Industrial Training and Upskilling",
+          "AI Tutors for various subjects",
+          "Teaching co-pilots and student co-pilots"
+        ],
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "description": [
+          "Classroom apps like Lesson Transcriptions, Summarization, QnA and Assignments.",
+          "Guided and/or personalized learning pathways using Gen AI agents.",
+          "Content generation tools for Lessons Plans, Content Chapters, QnA, Essays, Audio / Video content, Tests, Research Papers etc.",
+          "Creating training manuals and instruction guides",
+          "Mentoring and Counseling tools",
+          "Corporate learning content",
+          "Executive Teaching tools and content",
+          "Tools related to Learning Management Systems"
+        ],
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Join the LearnView Community: Contribute, Collaborate, and Innovate!",
+    "items": [
+      {
+        "name": "LearnView project will be managed with help of a GitHub repo accessible to all. The code contributions here will be managed by Project Leads who moderate and approve submitted code before it gets pushed into the main Git branch.",
+        "icon": "/assets/images/github-logo.png"
+      },
+      {
+        "name": "The project will be hosted on a full stack Web App running on the Cloud eventually.",
+        "icon": "/assets/images/clouds.png"
+      },
+      {
+        "name": "Global developers are welcome to contribute to this Open Source project and help revolutionize Education and Learning with help of cutting-edge AI tech.",
+        "icon": "/assets/images/web-development.png"
+      },
+      {
+        "name": "Since it is free Open Source project, monetary contributions are solicited and requested.",
+        "icon": "/assets/images/money.png"
+      }
+    ]
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Product",
+        "href": "/"
+      },
+      {
+        "name": "Features",
+        "href": "/"
+      },
+      {
+        "name": "Pricing",
+        "href": "/"
+      },
+      {
+        "name": "About",
+        "href": "/"
+      }
+    ],
+    "socialMedia": {
+      "github": "https://github.com/CellStratAI/LearnView",
+      "medium": "https://cellstrat.medium.com/",
+      "linkedin": "https://www.linkedin.com/company/cellstrat"
+    }
+  }
+}
