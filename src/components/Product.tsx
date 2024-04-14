@@ -60,7 +60,7 @@ const Product = () => {
               </h3> */}
               <div className="text-white m-auto">
                 <ul className="list-disc">
-                  {(firstItem?.description as string[]).map((item, index) => (
+                  {(secondItem?.description as string[]).map((item, index) => (
                     <li key={index} className="mb-2">{item}</li>
                   ))}
                 </ul>
